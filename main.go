@@ -1,12 +1,18 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/Eric-lab-star/learngo/accounts"
-)
+import "fmt"
 
 func main() {
-	account := accounts.NewAccount("kim")
-	fmt.Println(account)
+	urls := []string{
+		"https://www.airbnb.com/",
+		"https://www.google.com/",
+		"https://www.amazon.com/",
+		"https://www.reddit.com/",
+		"https://www.google.com/",
+		"https://soundcloud.com/",
+		"https://www.facebook.com/",
+		"https://www.instagram.com/",
+		"https://academy.nomadcoders.co/",
+	}
+	fmt.Println(urls[1])
 }
